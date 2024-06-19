@@ -1,3 +1,4 @@
+// script.js
 function changeText() {
-    document.querySelector('p').textContent = 'You clicked the button!';
+    document.getElementById("welcome").innerHTML = "You clicked the button!";
 }
