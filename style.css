@@ -1,33 +1,36 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    background-color: #f0f0f0; /* Changed background color */
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color: #333;
+header {
+    background-color: #4CAF50; /* Changed header background color */
+    color: white;
+    padding: 1em;
+    text-align: center;
 }
 
 p {
-    color: #666;
-}
-
-a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+    padding: 1em;
 }
 
 button {
-    padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #008CBA; /* Changed button color */
     color: white;
     border: none;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1em 0;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #0056b3;
+a {
+    color: #4CAF50; /* Changed link color */
+    text-decoration: none;
 }
