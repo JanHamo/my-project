@@ -1,4 +1,4 @@
-// script.js
 function changeText() {
-    document.getElementById("welcome").innerHTML = "You clicked the button!";
+    const heading = document.querySelector("h1");
+    heading.textContent = "Text changed!";
 }
