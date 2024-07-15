@@ -1,0 +1,16 @@
+.navbar {
+  background-color: #007bff; /* اللون الأزرق */
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar button {
+  color: white; /* لون النص للأزرار */
+}
+
+.navbar button:hover {
+  background-color: #1976d2; /* لون الخلفية للأزرار عند التمرير */
+}

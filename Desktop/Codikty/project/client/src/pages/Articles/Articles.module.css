@@ -1,0 +1,10 @@
+/* Articles CSS */
+.articles {
+  text-align: center;
+  font-size: 1.5rem;
+  color: green;
+  margin-top: 20px;
+  padding-bottom: 50px; /* مساحة لتجنب تداخل الـ Footer */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* إضافة الظل */
+  border-radius: 8px;
+}

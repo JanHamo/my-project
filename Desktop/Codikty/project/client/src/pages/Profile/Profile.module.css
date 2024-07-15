@@ -1,0 +1,140 @@
+/* client/src/pages/Profile/Profile.module.css */
+
+.profile {
+  margin-top: 20px;
+}
+
+.backgroundImage {
+  position: relative;
+  height: 300px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -50px;
+  border: 2px dashed #ccc;
+  background-size: cover;
+  background-position: center;
+}
+
+.cameraIconBackground {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.profileHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profileImageContainer {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+}
+
+.emptyProfileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cameraIconProfile {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.profileNameContainer {
+  display: flex;
+  align-items: center;
+}
+
+.profileName {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrowIcon {
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.editProfileButton {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.cloudOfficeLink {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.postForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.postInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.postButton {
+  align-self: flex-end;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.userContent {
+  margin-top: 20px;
+}
+
+.contentItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contentImage {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+}

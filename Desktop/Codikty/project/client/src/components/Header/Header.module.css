@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.authLinks {
+  display: flex;
+  gap: 10px;
+}
+
+.loginButton {
+  background-color: #4caf50; /* لون أخضر */
+  color: white;
+}
+
+.registerButton {
+  background-color: #f44336; /* لون أحمر */
+  color: white;
+}
